@@ -1,0 +1,75 @@
+.body {
+    background-color:rgb(104, 90, 90);
+}
+
+.Logo {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.Shop-name {
+    text-align: center;
+}
+
+.Receipt-Info {
+    width: 80%;
+    margin: 0 auto;
+    border: 0.5px solid gray;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Receipt-Info {
+    border-bottom: 2px dashed gray;
+}
+
+.Receipt-address {
+    text-align: right;
+}
+.Receipt-body{
+    text-align: center;
+    font-size: 28px;
+    margin: 30px 0;
+    position: relative;
+}
+.receipt-detail{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.receipt-detail-digit{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+.receipt-detail{
+    color: gray;
+
+}
+.receipt-detail-digit{
+font-weight: bold;
+}
+.Accountant-signature{
+    text-align: right;
+    margin-top: 50px;
+}
+.stamp{
+    width: 110px;
+    position: absolute;
+    right: 110px;
+    bottom: -10;
+    transform: rotate(-10deg);
+}
+.Receipt-footer{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    background-color: wheat;
+}
+
